@@ -13,6 +13,18 @@
 [EIP2535 Diamonds, Multi-Facet Proxy](https://eips.ethereum.org/EIPS/eip-2535) - Create modular smart contract systems that can be extended after deployment.
 
 # Notes
+## Deployed Address (Sepolia)
+ERC20Facet = 0xcd9537589a0a9368b7d25dfd19a912fd7adcb2bd
+ERC20FacetMintNBurn = 0x142ed041b7cbcc7c72da4eb94c4a66d43c595d24
+
+## facetCut() Parameters Structure
+\[\["facetAddress",0,\["functionSelectors"\]\]\],"initAddress","initCode"
+
+## Function Selectors
+ERC20Facet - [0x39509351,0x3644e515,0xdd62ed3e,0x095ea7b3,0x70a08231,0x313ce567,0xa457c2d7,0x06fdde03,0x7ecebe00,0xd505accf,0x95d89b41,0x18160ddd,0xa9059cbb,0x23b872dd]  
+
+ERC20FacetMintNBurn - [0xaa82e017,0x3dc8ded7]
+
 ## Imports
 Diamond -  
 import "@solidstate/contracts/proxy/diamond/SolidStateDiamond.sol";
@@ -54,12 +66,7 @@ import "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol";
     }
 ```
 
-## Function Selectors
-ERC20Facet - [0x39509351,0x3644e515,0xdd62ed3e,0x095ea7b3,0x70a08231,0x313ce567,0xa457c2d7,0x06fdde03,0x7ecebe00,0xd505accf,0x95d89b41,0x18160ddd,0xa9059cbb,0x23b872dd]  
-
-ERC20FacetMintNBurn - [0xaa82e017,0x3dc8ded7]
-
 ## Etherscan API key
-KBWU9P5DRER9I1AGUZF71E2B9H33Y1TIZY
-FIFAYFZXDHNK2W62TP7WTI1USM5MTSSJWF
+KBWU9P5DRER9I1AGUZF71E2B9H33Y1TIZY  
+FIFAYFZXDHNK2W62TP7WTI1USM5MTSSJWF  
 SMKYZJQM51QKYIRE3VSE7MNHSW5R1G7RZP
