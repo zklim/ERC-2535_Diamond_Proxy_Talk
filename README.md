@@ -38,6 +38,18 @@ import "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol";
     }
 ```
 
+### Mint And Burn function
+```
+    function __mint(address account, uint256 amount) external {
+        _mint(account, amount);
+    }
+
+    function __burn(address account, uint256 amount) external {
+        _burn(account, amount);
+    }
+```
+
 ## Function Selectors
 ERC20Facet - [0x39509351,0x3644e515,0xdd62ed3e,0x095ea7b3,0x70a08231,0x313ce567,0xa457c2d7,0x06fdde03,0x7ecebe00,0xd505accf,0x95d89b41,0x18160ddd,0xa9059cbb,0x23b872dd]  
+
 ERC20FacetMintNBurn - [0xaa82e017,0x3dc8ded7]
