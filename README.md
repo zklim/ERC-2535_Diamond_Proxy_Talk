@@ -22,6 +22,9 @@ ERC20FacetInit -
 import "@solidstate/contracts/token/ERC20/metadata/ERC20MetadataInternal.sol";  
 import "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol";
 
+ERC20MintNBurn -
+import "@solidstate/contracts/token/ERC20/base/ERC20BaseInternal.sol";
+
 ## Init function
 ```
     function init(
