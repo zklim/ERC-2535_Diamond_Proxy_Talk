@@ -1,6 +1,6 @@
 # Diamond Proxy Demo
 ## Reference Links
-[Sepolia ETH faucet](https://faucets.chain.link/)
+[Sepolia ETH faucet](https://faucets.chain.link/) - Get test ETH.
 
 [Diamond Implementations](https://github.com/mudgen/diamond) - Compares Diamond reference implementations.
 
