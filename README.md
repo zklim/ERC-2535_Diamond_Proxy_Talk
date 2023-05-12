@@ -1,5 +1,7 @@
 # Diamond Proxy Demo
 ## Reference Links
+[Sepolia ETH faucet](https://faucets.chain.link/)
+
 [Diamond Implementations](https://github.com/mudgen/diamond) - Compares Diamond reference implementations.
 
 [SolidState](https://github.com/solidstate-network/solidstate-solidity) - Upgradeable-first Solidity smart contract development library that supports diamonds.
