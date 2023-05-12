@@ -21,7 +21,7 @@ ERC20FacetMintNBurn = 0x142ed041b7cbcc7c72da4eb94c4a66d43c595d24
 ZeroAddress = 0x0000000000000000000000000000000000000000
 
 ## facetCut() Parameters Structure
-`[[<facetAddress>,0,[<functionSelectors>]]],<initAddress>,<initCode>`
+`[[<facetAddress>,0,[<functionSelectors>]],[<facetAddress2>,0,[functionSelectors2]]],<initAddress>,<initCode>`
 
 ## Function Selectors
 ERC20Facet - 0x39509351,0x3644e515,0xdd62ed3e,0x095ea7b3,0x70a08231,0x313ce567,0xa457c2d7,0x06fdde03,0x7ecebe00,0xd505accf,0x95d89b41,0x18160ddd,0xa9059cbb,0x23b872dd  
